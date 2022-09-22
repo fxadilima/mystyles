@@ -1,7 +1,16 @@
 {{page-title "Mystyles"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<script src="https://kit.fontawesome.com/acda0af544.js" crossorigin="anonymous"></script>
 
-{{outlet}}
+<nav class="w3-bar w3-white w3-card">
+  <a href="/" class="w3-bar-item w3-button w3-hover-black"><i class="fas fa-home"></i></a>
+  <a href="/buku" class="w3-bar-item w3-button w3-hover-black"><i class="fas fa-book"></i></a>
+  <a href="/drama" class="w3-bar-item w3-button w3-hover-black w3-mobile">Drama</a>
+  <a href="/programming" class="w3-bar-item w3-button w3-hover-black w3-mobile">Programming</a>
+</nav>
+<section class="w3-main w3-row-padding">
+
+    {{outlet}}
+
+</section>
+
